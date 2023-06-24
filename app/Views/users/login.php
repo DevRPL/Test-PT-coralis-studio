@@ -47,6 +47,7 @@
         >
           Login
         </button>
+        <a href="<?= base_url('forget-password'); ?>" class="text-sm font-thin text-gray-800 hover:underline mt-2 inline-block hover:text-indigo-600">Forget Password</a>
       </div>
     </form>
   </div>

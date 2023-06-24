@@ -81,4 +81,9 @@ class ProfileController extends BaseController
             return redirect()->to('/login');
         }
     }
+
+    public function forgetPassword()
+    {
+        return view('users/forget-password');
+    }
 }

@@ -34,6 +34,7 @@ $routes->get('/login', 'ProfileController::login');
 $routes->get('/register', 'ProfileController::register');
 $routes->post('/register/storeRegister', 'ProfileController::storeRegister');
 $routes->post('/login/storeLogin', 'ProfileController::storeLogin');
+$routes->get('/forget-password', 'ProfileController::forgetPassword');
 $routes->get('/dashboard', 'DashboardController::index',['filter' => 'authGuard']);
 $routes->get('/logout', 'DashboardController::logout');
 
